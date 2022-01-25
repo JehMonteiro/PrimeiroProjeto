@@ -20,7 +20,7 @@ header > p {
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.822);
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.523);
 }
 
 nav {
@@ -65,8 +65,8 @@ body {
 main {
     background-color: white;
     padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
     min-width: 280px;
     max-width: 1000px;
     margin:auto;
@@ -93,5 +93,7 @@ footer {
     color: white;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    padding: 10px;
+    
 }
+
+
